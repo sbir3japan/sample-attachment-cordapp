@@ -1,4 +1,4 @@
-# Attachment API Usage Manual
+# Sample Attachment Cordapp Usage Manual
 
 ## Overview
 
