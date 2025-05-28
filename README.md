@@ -5,6 +5,17 @@
 This manual explains how to upload/download an zip file to/from Corda node via Corda RPC Endpoint. 
 The API allows you to send and download attachments between Corda nodes.
 
+## 0. Prerequisites
+- Make sure you have a running Corda node with the Sample Attachment Cordapp deployed. To run all the required nodes, you can use the following command in the `build/nodes` directory:
+  ```bash
+  ./runnodes
+  ```
+- Make sure the Corda RPC Server is running. To run the Corda RPC server, you can use the following command in `clients` directory:
+  ```bash
+  ../gradlew run templateServer
+  ```
+- Make sure you have put the ZIP file you want to send in an accessible location on the Corda node directory.
+
 ## 1. Send Attachment
 
 ### Endpoint
