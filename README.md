@@ -29,7 +29,7 @@ The API allows you to send and download attachments between Corda nodes.
 
 ```json
 {
-  "receiver": "O=Buyer,L=London,C=GB",
+  "receiver": "O=Seller,L=New York,C=US",
   "zipPath": "/absolute/path/to/your/file.zip"
 }
 ```
