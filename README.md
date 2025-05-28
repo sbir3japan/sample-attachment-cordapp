@@ -89,7 +89,7 @@ curl -X POST http://localhost:10050/sendAttachment \
 ### Example cURL Command
 
 ```bash
-curl -X GET http://localhost:8080/downloadAttachment \
+curl -X GET http://localhost:10050/downloadAttachment \
   -H "Content-Type: application/json" \
   -d '{
     "attachmentId": "1234567890ABCDEF...",
