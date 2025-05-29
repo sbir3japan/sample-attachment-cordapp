@@ -101,7 +101,7 @@ curl -X GET http://localhost:10050/downloadAttachment \
 
 ```json
 {
-  "result": "Downloaded file:1234567890ABCDEF... to /Users/bob/Downloads/received.zip"
+  "result": "Downloaded file:1234567890ABCDEF... to /absolute/path/to/save/file.zip"
 }
 ```
 
